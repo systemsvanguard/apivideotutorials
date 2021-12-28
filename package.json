@@ -1,6 +1,6 @@
 {
   "name": "apivideotutorials",
-  "version": "1.0.0", 
+  "version": "1.0.0",
   "private": false,
   "description": "A RESTful API written in Node.js on Express.js framework with a PostgreSQL RDBMS backend, for an API CRUD management list of Youtube based technical web development tutorial videos. Goal of practical coding practice for me.  Enjoy!",
   "repository": {
@@ -14,7 +14,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js", 
+    "dev": "nodemon server.js",
     "start": "node server.js"
   },
   "keywords": [
@@ -33,6 +33,7 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
+    "body-parser": "^1.19.1",
     "bulma": "^0.9.3",
     "cors": "^2.8.5",
     "express": "^4.17.2",
