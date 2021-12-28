@@ -72,6 +72,8 @@ typings/
 # dotenv environment variables file
 .env
 .env.test
+notes01.txt
+tester.txt 
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -82,6 +84,8 @@ typings/
 # Nuxt.js build / generate output
 .nuxt
 dist
+z_dist
+
 
 # Gatsby files
 .cache/
