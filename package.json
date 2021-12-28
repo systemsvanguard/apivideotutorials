@@ -1,0 +1,43 @@
+{
+  "name": "apivideotutorials",
+  "version": "1.0.0", 
+  "private": false,
+  "description": "A RESTful API written in Node.js on Express.js framework with a PostgreSQL RDBMS backend, for an API CRUD management list of Youtube based technical web development tutorial videos. Goal of practical coding practice for me.  Enjoy!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/systemsvanguard/apivideotutorials.git"
+  },
+  "bugs": {
+    "url": "https://github.com/systemsvanguard/apivideotutorials/issues"
+  },
+  "homepage": "https://techvideos.ryanhunter.ca/",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js", 
+    "start": "node server.js"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "PostgreSQL",
+    "CRUD",
+    "Node.js",
+    "Express.js",
+    "Video",
+    "Tutorials"
+  ],
+  "author": "Ryan Hunter | Email: ryan@RyanHunter.org | Web: www.RyanHunter.ca | Git handle: SystemsVanguard at both GitHub & BitBucket",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^7.0.0-alpha.3"
+  }
+}
